@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   get '/help', to: 'static_pages#help'
   get '/about', to: 'static_pages#about'
   get '/contact', to: 'static_pages#contact'
+  get '/kingsong1', to: 'static_pages#kingsong1'
+  get '/kingsong2', to: 'static_pages#kingsong2'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
